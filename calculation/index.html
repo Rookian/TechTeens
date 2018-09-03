@@ -5,11 +5,56 @@
     <meta charset="utf-8" />
     <title>Übung - Code lesen</title>
     <style>
+        input {
+            display: block;
+        }
 
+        .field {
+            padding: 4px;
+        }
+
+        #calculateButton {
+            margin: 4px;
+        }
+
+
+        .row {
+            display: grid;
+            grid-template-columns: 200px 100px;
+            grid-gap: 10px;
+        }
+
+        #resultLabel{
+            font-weight: bold;
+            margin-top: 15px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="row">
+        <div>
+            <div class="field">
+                <label for="roofHeight">Roof height in m</label>
+                <input type="number" id="roofHeight">
+            </div>
+
+            <div class="field">
+                <label for="houseWidth">House width in m</label>
+                <input type="number" id="houseWidth">
+            </div>
+            <div class="field">
+                <label for="houseHeight">House height in m</label>
+                <input type="number" id="houseHeight">
+            </div>
+            <button id="calculateButton">Calculate</button>
+            <div id="resultLabel"></div>
+        </div>
+        <div>
+            <img src="house.png" alt="house">
+        </div>
+    </div>
+
     <script src="calculation.js"></script>
 </body>
 
