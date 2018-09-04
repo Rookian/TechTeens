@@ -16,11 +16,11 @@ document.getElementById("calculateButton").addEventListener("click", function ()
     alert("House height needs to be greater than zero.")
   }
 
-  const houseArea = calculateHouseArea(roofHeigt, houseWidth, houseHeight);
-  document.getElementById("resultLabel").innerText = "House front area is " + houseArea + "m².";
+  const houseArea = calculateGableArea(roofHeigt, houseWidth, houseHeight);
+  document.getElementById("resultLabel").innerText = "Gable area is " + houseArea + "m².";
 });
 
-function calculateHouseArea(roofHeight, houseWidth, houseHeight) {
+function calculateGableArea(roofHeight, houseWidth, houseHeight) {
   const roofArea = 1 / 2 * roofHeight * houseWidth;
   const houseArea = houseHeight * houseWidth;
 
