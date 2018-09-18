@@ -1,28 +1,10 @@
-Game = {
-  
-    run: function(options) {
-  
-      var now,
-          dt       = 0,
-          last     = window.performance.now,
-          slow     = options.slow || 1, // slow motion scaling factor
-          step     = 1/options.fps,
-          slowStep = slow * step,
-          update   = options.update,
-          render   = options.render
-  
-      function frame() {
-        now = window.performance.now;
-        dt = dt + Math.min(1, (now - last) / 1000);
-        while(dt > slowStep) {
-          dt = dt - slowStep;
-          update(step);
-        }
-        render(dt/slow);
-        last = now;
-        requestAnimationFrame(frame, options.canvas);
-      }
-  
-      requestAnimationFrame(frame);
-    },
-  }
+let figurImage;
+function setup() {
+  figurImage = loadImage('images/Figur.png');
+  createCanvas(window.screen.width, window.screen.height);
+  background(0);
+}
+
+function draw() {
+  image(figurImage, 0, 0, 514, 586);
+}
