@@ -31,9 +31,10 @@ function draw() {
   }
 
   background(0);
-  fill(255,0,130);
-  line(0, groundY, windowWidth, groundY);
-  ellipse(150, 150, 100, 100);
+  stroke(100, 200, 100);
+  line(0, groundY + figurImage.height, windowWidth, groundY + figurImage.height);
+
+  //ellipse(150, 150, 100, 100);
   
   image(figurImage, x, y);
   console.log(vy)
