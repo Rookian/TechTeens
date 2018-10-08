@@ -23,7 +23,6 @@ function preload(){
 }
 
 function setup() {
-  // 10 pics
   for (let index = 0; index < amountOfPics; index++) {
     let image = mySprite.get(sx, 0, spriteWidth, spriteHeight);
     images.push(image);
