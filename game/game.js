@@ -1,12 +1,35 @@
 let figurImage;
+let mySprite;
 let vx;
 let vy;
 let x;
 let y;
 const groundY = 400;
 
-function setup() {
+// Sprite
+let sx = 0;
+let sy = 0;
+const spriteWidth = 32;
+const spriteHeight = 27;
+const speed = 0.1;
+let index = 0;
+const amountOfPics = 8
+
+let images = [];
+
+function preload(){
   figurImage = loadImage('images/Figur2.png');
+  mySprite = loadImage('images/Animation.png'); // Muss in preload stehen
+}
+
+function setup() {
+  // 10 pics
+  for (let index = 0; index < amountOfPics; index++) {
+    let image = mySprite.get(sx, 0, spriteWidth, spriteHeight);
+    images.push(image);
+    sx = sx + spriteWidth;
+  }
+
   createCanvas(windowWidth, windowHeight);
   background(0);
   vx = 0;
@@ -25,7 +48,7 @@ function draw() {
   }
   if (y >= groundY) {
     vy = 0;
-    if (keyIsDown(UP_ARROW)){
+    if (keyIsDown(UP_ARROW)) {
       this.jump();
     }
   }
@@ -34,10 +57,10 @@ function draw() {
   stroke(100, 200, 100);
   line(0, groundY + figurImage.height, windowWidth, groundY + figurImage.height);
 
-  //ellipse(150, 150, 100, 100);
-  
   image(figurImage, x, y);
-  console.log(vy)
+  index += speed;
+  scale(2);
+  image(images[floor(index) % images.length], x, y );
 }
 
 function keyPressed() {
