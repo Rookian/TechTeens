@@ -6,28 +6,16 @@ let x;
 let y;
 const groundY = 400;
 
-// Sprite
-let sx = 0;
-let sy = 0;
-const spriteWidth = 32;
-const spriteHeight = 27;
-const speed = 0.1;
-let index = 0;
-const amountOfPics = 8
+let spriteAni;
 
-let images = [];
-
-function preload(){
+function preload() {
   figurImage = loadImage('images/Figur2.png');
-  mySprite = loadImage('images/Animation.png'); // Muss in preload stehen
+  mySprite = loadImage('images/dog/walk.png'); // Muss in preload stehen
 }
 
 function setup() {
-  for (let index = 0; index < amountOfPics; index++) {
-    let image = mySprite.get(sx, 0, spriteWidth, spriteHeight);
-    images.push(image);
-    sx = sx + spriteWidth;
-  }
+  const images = Sprite.getSpriteImages(15, mySprite, 158, 197);
+  spriteAni = new Sprite(images, 0.4, 100, 200);
 
   createCanvas(windowWidth, windowHeight);
   background(0);
@@ -45,6 +33,7 @@ function draw() {
   if (y <= 100) {
     vy += 5;
   }
+
   if (y >= groundY) {
     vy = 0;
     if (keyIsDown(UP_ARROW)) {
@@ -57,9 +46,9 @@ function draw() {
   line(0, groundY + figurImage.height, windowWidth, groundY + figurImage.height);
 
   image(figurImage, x, y);
-  index += speed;
-  scale(2);
-  image(images[floor(index) % images.length], x, y );
+
+  spriteAni.show();
+  spriteAni.animate();
 }
 
 function keyPressed() {
@@ -83,5 +72,40 @@ function jump() {
 function keyReleased() {
   if (keyCode === RIGHT_ARROW || keyCode === LEFT_ARROW) {
     vx = 0;
+  }
+}
+
+class Sprite {
+  constructor(images, speed, x, y) {
+    this.images = images;
+    this.speed = speed;
+    this.x = x;
+    this.y = y;
+    this.index = 0;
+  }
+
+  show() {
+    image(this.images[floor(this.index) % this.images.length], this.x, this.y);
+  }
+
+  animate() {
+    this.x = this.x + 5;
+    if (this.x > windowWidth + this.images[0].width){
+      this.x = -300;
+    }
+
+    this.index += this.speed;
+  }
+
+  static getSpriteImages(amountOfPics, spriteImage, width, height) {
+    let images = [];
+    let sx = 0;
+    for (let index = 0; index < amountOfPics; index++) {
+      let image = spriteImage.get(sx, 0, width, height);
+      images.push(image);
+      sx = sx + width;
+    }
+
+    return images;
   }
 }
