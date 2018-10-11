@@ -3,18 +3,25 @@ const groundY = 400;
 let figureImage;
 let figure;
 
-let dogImage;
+let walkImage;
 let dog;
+let idleImage;
+let jumpImage;
 
 function preload() {
+  // Muss in preload stehen
   figureImage = loadImage('images/Figur2.png');
-  dogImage = loadImage('images/dog/walk.png'); // Muss in preload stehen
+  walkImage = loadImage('images/dog/walk.png'); 
+  idleImage = loadImage('images/dog/idle.png');
+  jumpImage = loadImage('images/dog/jump.png');
 }
 
 function setup() {
-  const images = Sprite.getSpriteImages(15, dogImage, 158, 197);
-  dog = new Sprite(images, 0.4, 0, groundY + 112);
-  figure = new Sprite([figureImage], 0, 200, groundY)
+  const walkImages = Sprite.getSpriteImages(15, walkImage, 158, 197);
+  const idleImages = Sprite.getSpriteImages(8, idleImage, 204, 176);
+  const jumpImages = Sprite.getSpriteImages(2, jumpImage, 122, 198)
+  dog = new Sprite(idleImages, walkImages, jumpImages, 0.4, 0, groundY + 112);
+  figure = new Sprite([figureImage], [figureImage], [figureImage], 0, 200, groundY)
 
   createCanvas(windowWidth, windowHeight);
   background(0);
