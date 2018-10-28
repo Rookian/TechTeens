@@ -4,7 +4,9 @@ Page: https://techteens.z6.web.core.windows.net/
 
 
 # Javascript Cheat Sheet
-
+siehe auch
++ https://htmlcheatsheet.com/js/
++ https://www.cheatography.com/pyro19d/cheat-sheets/javascript/
 
 ## Typen
 + *Number* (Zahl)
