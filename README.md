@@ -21,9 +21,9 @@ let name; // Name der Spielfigur Das ist ein Kommentar um Code näher zu beschre
 
 ## Variablen
 ### Schlüsselwörter
-+ *const* (konstante, also sich nicht ändernde Werte)
-+ *let* (nicht konstante Werte, wird meistens genutzt)
-+ *var* (altes Javascript, **nicht mehr nutzen**)
++ `const` (konstante, also sich nicht ändernde Werte)
++ `let` (nicht konstante Werte, wird meistens genutzt)
++ `var` (altes Javascript, **nicht mehr nutzen**)
 
 ### Variablen deklarieren und zuweisen
 Deklaration:
@@ -45,7 +45,7 @@ Projekt = "TechTeens" // --> geht nicht, weil man für Variablen Groß-und Klein
 ```
 
 ## Anweisungen
-Anweisung enden immer mit einem Semikolon (;)
+Anweisung enden immer mit einem Semikolon (`;`)
 
 
 ## Klassen und Methoden
