@@ -79,7 +79,9 @@ class Auto {
 <html>
   <head>
     <title>Meine HTML Seite</title>
+    <!-- link ist optional für Styles-->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- script ist optional für eine Javascript Datei-->
     <script src="script123.js"></script>
   </head>
   <body>
