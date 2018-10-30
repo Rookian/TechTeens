@@ -22,11 +22,19 @@ Kommentare werden in den meisten Code Editoren grün angezeigt.
 // Name der Spielfigur
 let name; 
 ```
-## Code auskommentieren
+## Eine Codezeile auskommentieren
 ```javascript
 // let a = 5 
 ```
 
+## Einen Codeblock auskommentieren
+```javascript
+/*
+let a;
+let b;
+let c;
+*/
+```
 
 ## Variablen
 ### Schlüsselwörter
