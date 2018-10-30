@@ -14,10 +14,11 @@ siehe auch
 + *Boolean*  (*True*=Wahr bzw. *False*=Falsch)
 
 ## Kommentare
+Kommentare werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
+Kommentare werden in den meisten Code Editoren grün angezeigt.
 ```javascript
-let name; // Name der Spielfigur Das ist ein Kommentar um Code näher zu beschreiben
-// let a = 5 Dieser Code wird nicht ausgeführt, weil er auskommentiert ist
-
+let name; // Name der Spielfigur
+// let a = 5 
 ```
 
 
