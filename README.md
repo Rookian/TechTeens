@@ -17,7 +17,9 @@ siehe auch
 Kommentare werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
 Kommentare werden in den meisten Code Editoren grün angezeigt.
 ```javascript
-let name; // Name der Spielfigur
+// Name der Spielfigur
+let name; 
+
 // let a = 5 
 ```
 
