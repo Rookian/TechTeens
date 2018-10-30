@@ -28,18 +28,18 @@ let name; // Name der Spielfigur Das ist ein Kommentar um Code näher zu beschre
 + `var` (altes Javascript, **nicht mehr nutzen**)
 
 ### Variablen deklarieren und zuweisen
-Deklaration:
+#### Deklaration:
 ```javascript
 let name;
 ```
 
-Deklarieren und zuweisen:
+#### Deklarieren und zuweisen:
 ```javascript
 let a = 1;
 const pi = 3.14;
 ```
 
-Deklaration und später zuweisen
+#### Deklaration und später zuweisen
 ```javascript
 let projekt;
 projekt = "TechTeens";
