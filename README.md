@@ -87,6 +87,7 @@ class Auto {
 | Strg + A         | Alles markieren                |
 | Strg + P         | Gehe zu Datei...               |
 | Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
+| F1               | Zeige Befehle/Führe Befehl aus |
 
 # HTML Grundgerüst
 ```html
