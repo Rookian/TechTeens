@@ -89,7 +89,7 @@ class Auto {
 | Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
 
 # HTML Grundgerüst
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
