@@ -72,3 +72,17 @@ class Auto {
 | Strg + A         | Alles markieren                |
 | Strg + P         | Gehe zu Datei...               |
 | Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
+
+# HTML Grundgerüst
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meine HTML Seite</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script123.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+```
