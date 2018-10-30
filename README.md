@@ -78,6 +78,14 @@ class Auto {
 }
 ```
 
+## Informationen in Console schreiben
+```javascript
+console.log("Hallo Welt");
+
+let meinText = "Mein Text 123";
+console.log(meinText);
+```
+
 # Shortcuts für Visual Studio Code (VS Code)
 
 | Shortcut         | Beschreibung                   | 
