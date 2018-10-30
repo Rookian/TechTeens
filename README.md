@@ -62,3 +62,13 @@ class Auto {
   }
 }
 ```
+
+# Shortcuts für Visual Studio Code (VS Code)
+
+| Shortcut         | Beschreibung                   | 
+| -----------------| -------------------------------|
+| Strg + C         | Text kopieren                  |
+| Strg + V         | Text einfügen                  |
+| Strg + A         | Alles markieren                |
+| Strg + P         | Gehe zu Datei...               |
+| Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
