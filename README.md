@@ -88,6 +88,7 @@ class Auto {
 | Strg + P         | Gehe zu Datei...               |
 | Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
 | F1               | Zeige Befehle/Führe Befehl aus |
+| F2               | Methode/Variable umbennen      |
 
 # HTML Grundgerüst
 ```html
