@@ -88,15 +88,17 @@ console.log(meinText);
 
 # Shortcuts für Visual Studio Code (VS Code)
 
-| Shortcut         | Beschreibung                   | 
-| -----------------| -------------------------------|
-| Strg + C         | Text kopieren                  |
-| Strg + V         | Text einfügen                  |
-| Strg + A         | Alles markieren                |
-| Strg + P         | Gehe zu Datei...               |
-| Strg + Shift + P | Zeige Befehle/Führe Befehl aus |
-| F1               | Zeige Befehle/Führe Befehl aus |
-| F2               | Methode/Variable umbennen      |
+| Shortcut         | Beschreibung                                         | 
+| -----------------| -----------------------------------------------------|
+| Strg + C         | Text kopieren                                        |
+| Strg + V         | Text einfügen                                        |
+| Strg + A         | Alles markieren                                      |
+| Strg + P         | Gehe zu Datei...                                     |
+| Strg + Shift + P | Zeige Befehle/Führe Befehl aus                       |
+| F1               | Zeige Befehle/Führe Befehl aus                       |
+| F2               | Methode/Variable umbennen                            |
+| Atl + Shift + F  | Datei formatieren                                    |
+| Strg + Leertaste | IntelliSense aufrufen (mit Enter Auswahl übernehmen) |
 
 # HTML Grundgerüst
 ```html
