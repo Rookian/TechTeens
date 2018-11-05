@@ -65,17 +65,32 @@ Projekt = "TechTeens" // --> geht nicht, weil man für Variablen Groß-und Klein
 Anweisung enden immer mit einem Semikolon (`;`)
 
 
-## Klassen und Methoden
+## Methoden/Funktionen
+### Methodendeklaration
 ```javascript
-class Auto {
-  fahren(geschwindigkeit) {
+  // Methode mit Argument
+  function fahren(geschwindigkeit) {
 
   }
-
-  bremsen() {
+  
+  // Methode ohne Argumente
+  function linksBewegen() {
 
   }
-}
+  
+  // Methode mit Argumente und Rückgabewert
+  function summeBerechnen(a, b) {
+    const summe = a + b;
+    return summe;
+  }  
+```
+### Methodenaufruf
+```javascript
+// Aufruf von Methode mit Rückgabewert
+const summe = SummeBerechnen(2, 4);
+
+// Aufruf von Methode ohne Rückgabewert
+wertSpeichern(summe);
 ```
 
 ## Informationen in Console schreiben
