@@ -14,6 +14,13 @@ siehe auch
 + *String* (Text)
 + *Boolean*  (*True*=Wahr bzw. *False*=Falsch)
 
+## Mathematische Operatoren
++ *+*   Addition
++ *-*   Subtraktion
++ *\**   Multiplikation
++ */*   Division
+
+
 ## Kommentare
 Kommentare (`//`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
 Kommentare werden in den meisten Code Editoren grün angezeigt.
