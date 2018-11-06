@@ -7,6 +7,7 @@ Page: https://techteens.z6.web.core.windows.net/
 siehe auch
 + https://htmlcheatsheet.com/js/
 + https://www.cheatography.com/pyro19d/cheat-sheets/javascript/
++ https://wiki.selfhtml.org/wiki/JavaScript/Funktion
 
 ## Typen
 + *Number* (Zahl)
