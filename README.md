@@ -22,7 +22,7 @@ siehe auch
 
 Beispiel
 ```javascript
-const a = 6 * a;
+const a = 6 * b;
 ```
 
 ## Kommentare
