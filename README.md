@@ -20,6 +20,10 @@ siehe auch
 + *\**   Multiplikation
 + */*   Division
 
+Beispiel
+```javascript
+const a = 6 * a;
+```
 
 ## Kommentare
 Kommentare (`//`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
