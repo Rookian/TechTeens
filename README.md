@@ -89,7 +89,7 @@ Anweisung enden immer mit einem Semikolon (`;`)
 ### Methodenaufruf
 ```javascript
 // Aufruf von Methode mit Rückgabewert
-const summe = SummeBerechnen(2, 4);
+const summe = summeBerechnen(2, 4);
 
 // Aufruf von Methode ohne Rückgabewert
 wertSpeichern(summe);
