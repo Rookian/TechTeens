@@ -78,7 +78,7 @@ Anweisung enden immer mit einem Semikolon (`;`)
 
   }
   
-  // Methode mit Argumente und Rückgabewert
+  // Methode mit Argumenten und Rückgabewert
   function summeBerechnen(a, b) {
     const summe = a + b;
     return summe;
