@@ -43,6 +43,8 @@ let c;
 + `var` (altes Javascript, **nicht mehr nutzen**)
 
 ### Variablen deklarieren und zuweisen
+Variablen dürfen nicht mit Sonderzeichen oder Zahlen beginnen. Variablen sollten immer kleingeschrieben werden.
+
 #### Deklaration:
 ```javascript
 let name;
