@@ -8,6 +8,7 @@ siehe auch
 + https://htmlcheatsheet.com/js/
 + https://www.cheatography.com/pyro19d/cheat-sheets/javascript/
 + https://wiki.selfhtml.org/wiki/JavaScript/Funktion
++ https://www.w3schools.com/js/default.asp
 
 ## Typen
 + *Number* (Zahl)
