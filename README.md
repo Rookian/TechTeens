@@ -29,11 +29,6 @@ siehe auch
 | ++      | Inkrementieren      | `a++;` Ist das gleiche wie `a = a + 1` |
 | --      | Dekrementieren      | `a--;` Ist das gleiche wie `a = a - 1` |
 
-Beispiel
-```javascript
-const a = 6 * b;
-```
-
 ## Kommentare
 Kommentare (`//` bzw. `/* */`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
 Kommentare werden grün angezeigt.
