@@ -14,11 +14,18 @@ siehe auch
 + *String* (Text)
 + *Boolean*  (*True*=Wahr bzw. *False*=Falsch)
 
-## Mathematische Operatoren
-+ *+*   Addition
-+ *-*   Subtraktion
-+ *\**   Multiplikation
-+ */*   Division
+## Operatoren
+|Operator | Bedeutung                   | Beispiel          |
+|---------|-----------------------------|---------------    |
+| =       | Wert zu weisen              | `let a = 5;`  |
+| +       | Addieren von Zahlen         | `let a = b + 1;`  |
+| -       | Subtrahieren von Zahlen     | `let a = b - 1;`  |
+| *       | Multiplizieren von Zahlen   | `let a = b * 1;`  |
+| /       | Dividieren von Zahlen       | `let a = b / 1;`  |
+| +=      | Addieren von Zahlen mit sich selbst          | `a += 5;` Ist das gleiche wie `a = a + 5` |
+| -=      | Subtrahieren von Zahlen mit sich selbst      | `a -= 5;` Ist das gleiche wie `a = a - 5` |
+| *=      | Multiplizieren von Zahlen mit sich selbst      | `a *= 5;` Ist das gleiche wie `a = a * 5` |
+| /=      | Subtrahieren von Zahlen mit sich selbst      | `a /= 5;` Ist das gleiche wie `a = a / 5` |
 
 Beispiel
 ```javascript
