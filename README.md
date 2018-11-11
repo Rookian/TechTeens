@@ -26,8 +26,8 @@ const a = 6 * b;
 ```
 
 ## Kommentare
-Kommentare (`//`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
-Kommentare werden in den meisten Code Editoren grün angezeigt.
+Kommentare (`//` bzw. `/* */`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
+Kommentare werden grün angezeigt.
 
 ### Variable `name` näher beschreiben
 ```javascript
