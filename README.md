@@ -26,6 +26,8 @@ siehe auch
 | -=      | Subtrahieren von Zahlen mit sich selbst      | `a -= 5;` Ist das gleiche wie `a = a - 5` |
 | *=      | Multiplizieren von Zahlen mit sich selbst      | `a *= 5;` Ist das gleiche wie `a = a * 5` |
 | /=      | Subtrahieren von Zahlen mit sich selbst      | `a /= 5;` Ist das gleiche wie `a = a / 5` |
+| ++      | Inkrementieren      | `a++;` Ist das gleiche wie `a = a + 1` |
+| --      | Dekrementieren      | `a--;` Ist das gleiche wie `a = a - 1` |
 
 Beispiel
 ```javascript
