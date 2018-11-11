@@ -50,6 +50,7 @@ let c;
 
 ## Variablen
 Variablen dienen zur **Wiederverwendung** von Werten und zur besseren **Strukturierung** von Programmcode.
+Variablen können **deklariert**, **zu gewiesen** oder **berechnet** werden.
 
 ### Schlüsselwörter
 + `const` (konstante, also sich nicht ändernde Werte)
@@ -75,6 +76,14 @@ const pi = 3.14;
 let projekt;
 projekt = "TechTeens";
 Projekt = "TechTeens" // --> geht nicht, weil man für Variablen Groß-und Kleinschreibung beachten muss
+```
+
+### Berechnen
+```javascript
+let a = 1;
+let d =  a * 2;
+let z;
+z = d + a * 4;
 ```
 
 ## Anweisungen
