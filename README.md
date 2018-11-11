@@ -23,12 +23,12 @@ siehe auch
 | -       | Subtrahieren von Zahlen     | `let a = b - 1;`  |
 | *       | Multiplizieren von Zahlen   | `let a = b * 1;`  |
 | /       | Dividieren von Zahlen       | `let a = b / 1;`  |
-| +=      | Addieren von Zahlen mit sich selbst          | `a += 5;` Ist das gleiche wie `a = a + 5` |
-| -=      | Subtrahieren von Zahlen mit sich selbst      | `a -= 5;` Ist das gleiche wie `a = a - 5` |
-| *=      | Multiplizieren von Zahlen mit sich selbst      | `a *= 5;` Ist das gleiche wie `a = a * 5` |
-| /=      | Subtrahieren von Zahlen mit sich selbst      | `a /= 5;` Ist das gleiche wie `a = a / 5` |
-| ++      | Inkrementieren      | `a++;` Ist das gleiche wie `a = a + 1` |
-| --      | Dekrementieren      | `a--;` Ist das gleiche wie `a = a - 1` |
+| +=      | Addieren von Zahlen mit sich selbst          | `a += 5;` Ist das gleiche wie `a = a + 5;` |
+| -=      | Subtrahieren von Zahlen mit sich selbst      | `a -= 5;` Ist das gleiche wie `a = a - 5;` |
+| *=      | Multiplizieren von Zahlen mit sich selbst      | `a *= 5;` Ist das gleiche wie `a = a * 5;` |
+| /=      | Subtrahieren von Zahlen mit sich selbst      | `a /= 5;` Ist das gleiche wie `a = a / 5;` |
+| ++      | Inkrementieren      | `a++;` Ist das gleiche wie `a = a + 1;` |
+| --      | Dekrementieren      | `a--;` Ist das gleiche wie `a = a - 1;` |
 
 ## Kommentare
 Kommentare (`//` bzw. `/* */`) werden nicht ausgeführt und dienen als Beschreibung des Quellcodes.
