@@ -49,7 +49,8 @@ let c;
 ```
 
 ## Variablen
-Variablen dienen zur **Wiederverwendung** von Werten und zur besseren **Strukturierung** von Programmcode.
+Variablen dienen zur **Wiederverwendung** von Werten und zur besseren **Strukturierung** von Programmcode. Bspw. könnte man sich die aktuelle Punktzahl oder die Anzahl an Leben in einer Variable speichern.
+
 Variablen können **deklariert**, **zu gewiesen** oder **berechnet** werden.
 
 ### Schlüsselwörter
