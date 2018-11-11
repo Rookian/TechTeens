@@ -80,10 +80,10 @@ Projekt = "TechTeens" // --> geht nicht, weil man für Variablen Groß-und Klein
 
 ### Berechnen
 ```javascript
-let a = 1;
-let d =  a * 2;
-let z;
-z = d + a * 4;
+let a = 1; 
+let d = a * 2; // Deklaration, Zuweisung und Berechnung auf einer Zeile
+let z;         // separate Deklaration
+z = d + a * 4; // Zuweisung und Berechnung auf einer Zeile
 ```
 
 ## Anweisungen
