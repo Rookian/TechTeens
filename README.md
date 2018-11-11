@@ -94,7 +94,13 @@ z = d + a * 4; // Zuweisung und Berechnung auf einer Zeile
 
 ## Anweisungen
 Anweisung enden immer mit einem Semikolon (`;`)
+Jede Anweisung hat in der Regal eine neue Zeile.
 
+Bsp.:
+```javascript
+let preis = berechnePreis(true, 100);
+let gesamtPreis = preis * menge;
+```
 
 ## Methoden/Funktionen
 ### Methodendeklaration
