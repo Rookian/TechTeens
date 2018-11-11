@@ -93,7 +93,8 @@ z = d + a * 4; // Zuweisung und Berechnung auf einer Zeile
 ```
 
 ## Anweisungen
-Anweisung enden immer mit einem Semikolon (`;`)
+Anweisungen sagen dem PC was er tun soll. Deklarationm und uweisen von Variablen und Aufrufen von Methoden sind bspw. Anweisungen.
+Anweisungen enden immer mit einem Semikolon (`;`).
 Jede Anweisung hat in der Regal eine neue Zeile.
 
 Bsp.:
