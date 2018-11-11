@@ -49,6 +49,8 @@ let c;
 ```
 
 ## Variablen
+Variablen dienen zur **Wiederverwendung** von Werten und zur besseren **Strukturierung** von Programmcode.
+
 ### Schlüsselwörter
 + `const` (konstante, also sich nicht ändernde Werte)
 + `let` (nicht konstante Werte, wird meistens genutzt)
