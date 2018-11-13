@@ -104,6 +104,12 @@ let gesamtPreis = preis * menge;
 ```
 
 ## Methoden/Funktionen
+Methoden sind Unterprogramme, die es möglich machen einmal geschriebenen Code wiederzuverwenden. Das führt dazu, dass man komplexen Code "verstecken" kann und ihn durch einen einfachen Methodenaufruf wiederverwenden kann ("Kapselung" bzw. "Encapsulation"). 
+Bsp. aus der realen Welt: Beim Auto Gas geben und bremsen. 
+
+Methoden/Funktionen können keine, einen oder mehrere Methodenargumente übergeben bekommen.
+Eine Methode kann einen oder keinen Wert zurückgeben. Mit dem Schlüsselwort `return` kann man einen Wert zurückgeben.
+
 ### Methodendeklaration
 ```javascript
   // Methode mit Argument
