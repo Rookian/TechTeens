@@ -135,6 +135,9 @@ const summe = summeBerechnen(2, 4);
 
 // Aufruf von Methode ohne Rückgabewert
 wertSpeichern(summe);
+
+// Aufruf von Methode ohne Rückgabewert und ohne Argument
+linksBewegen();
 ```
 
 ## Informationen in Console schreiben
