@@ -93,7 +93,7 @@ z = d + a * 4; // Zuweisung und Berechnung auf einer Zeile
 ```
 
 ## Anweisungen
-Anweisungen sagen dem PC was er tun soll. Deklarationm, Zuweisen von Variablen und Aufrufen von Methoden sind bspw. Anweisungen.
+Anweisungen sagen dem PC was er tun soll. Deklaration, Zuweisen von Variablen und Aufrufen von Methoden sind bspw. Anweisungen.
 Anweisungen enden immer mit einem Semikolon (`;`).
 Jede Anweisung hat in der Regel eine neue Zeile.
 
