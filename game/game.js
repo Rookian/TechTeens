@@ -14,7 +14,7 @@ let jumpImage;
 function preload() {
 	// Muss in preload stehen
 	figureImage = loadImage("images/Figur2.png");
-	walkImage = loadImage("images/dog/walk.png"); 
+	walkImage = loadImage("images/dog/walk.png");
 	idleImage = loadImage("images/dog/idle.png");
 	jumpImage = loadImage("images/dog/jump.png");
 }
