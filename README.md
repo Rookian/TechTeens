@@ -142,7 +142,8 @@ linksBewegen();
 ```
 
 ## Bedingungen
-### if 
+### if
+Wenn (`if`) die angegebene Bedingung wahr (`true`) ist, dann führe den Block `{}` aus.
 ```javascript
 let a = 2;
 if (a > 1){
@@ -154,6 +155,8 @@ else {
 ```
 
 ### If else
+Wenn (`if`) die angegebene Bedingung wahr (`true`) ist, dann führe den Block `{}` aus. Ansonsten, wenn die Bedingung nicht wahr ist (`false`), führe den Block `{}` nach dem `else` Zweig aus.
+
 ```javascript
 let a = 5;
 if (a == 5){
@@ -161,6 +164,18 @@ if (a == 5){
 }
 else {
    console.log("a ist nicht 5");
+}
+```
+
+oder mit einem bool Wert
+
+```javascript
+let b = true;
+if (a){
+   console.log("a ist wahr.");
+}
+else {
+   console.log("a ist nicht wahr.");
 }
 ```
 
