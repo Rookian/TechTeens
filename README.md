@@ -14,6 +14,7 @@ siehe auch
 + *Number* (Zahl)
 + *String* (Text)
 + *Boolean*  (*True*=Wahr bzw. *False*=Falsch)
++ *Array* (Liste)
 
 ## Operatoren
 |Operator | Bedeutung                   | Beispiel          |
@@ -138,6 +139,29 @@ wertSpeichern(summe);
 
 // Aufruf von Methode ohne Rückgabewert und ohne Argument
 linksBewegen();
+```
+
+## Bedingungen
+### if 
+```javascript
+let a = 2;
+if (a > 1){
+   console.log("a ist größer als 1");
+}
+else {
+   console.log("a ist nicht größer als 1");
+}
+```
+
+### If else
+```javascript
+let a = 5;
+if (a == 5){
+   console.log("a ist 5");
+}
+else {
+   console.log("a ist nicht 5");
+}
 ```
 
 ## Informationen in Console schreiben
