@@ -146,11 +146,8 @@ linksBewegen();
 Wenn (`if`) die angegebene Bedingung wahr (`true`) ist, dann führe den Block `{}` aus.
 ```javascript
 let a = 2;
-if (a > 1){
+if (a > 1) {
    console.log("a ist größer als 1");
-}
-else {
-   console.log("a ist nicht größer als 1");
 }
 ```
 
