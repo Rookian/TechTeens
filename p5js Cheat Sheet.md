@@ -33,10 +33,19 @@ function setup() {
 ## Zufallszahlen
 random(von, bis);
 
-Bspw. Zufallszahlen von 1 bis 5:
+### Bspw. Zufallszahlen von 1 bis 5:
 ```javascript
 let meineZahl = random(1, 5);
 ```
+### Bspw. Zufallsfarbe:
+```javascript
+function draw() {
+  fill(random(0, 255), random(0, 255), random(0, 255));
+  rect(10, 10, 100, 100);
+}
+```
+
+
  
 ## Mausinteraktionen
 ## Mausgdrückt
