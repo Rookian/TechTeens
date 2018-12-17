@@ -34,7 +34,9 @@ function setup() {
 random(von, bis);
 
 Bspw. Zufallszahlen von 1 bis 5:
-`random(1,5)`;
+```javascript
+random(1,5);
+```
  
 ## Mausinteraktionen
 ## Mausgdrückt
