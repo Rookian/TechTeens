@@ -20,31 +20,26 @@ Die Function `draw()` wird **ständig** ausgeführt (mehr mals pro Sekunde). In 
 
 Sowohl `setup()` als auch `draw()` werdwen von der p5.js Bibliothek aufgerufen und **dürfen damit nicht selbst aufgerufen werden**.
 
-/// <reference path="./p5.global-mode.d.ts" />
+## Anzahl der Bilder einstellen 
+
+Bspw. 10 Bilder pro Sekunde darstellen
+```javascript
 function setup() {
     createCanvas(windowWidth, windowHeight);
     frameRate(10);
 }
+```
+ 
+## Zufallszahlen
+random(von, bis);
 
-function draw() {
-    fill(random(0, 255), 0, random(140, 255));
-    background(255);
-    rect(100, 200, 300, 400);
-}
-
+Bspw. Zufallszahlen von 1 bis 5:
+`random(1,5)`;
+ 
+## Mausinteraktionen
+## Mausgdrückt
+```javascript
 function mousePressed() {
     
 }
-
-// Maus
-// Maus gedrückt 
-//function mousePressed()
-
-
-// mouseX, mouseY --> Koordinaten der Maus
-
-// Zufallszahlen
-// random(von, bis);
-
-// Blinken
-// Framerate auf niedrigeren Wert stellen frameRate(10); 
+```
