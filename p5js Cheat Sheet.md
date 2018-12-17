@@ -49,8 +49,19 @@ function draw() {
  
 ## Mausinteraktionen
 ## Mausgdrückt
+
+Einmalig:
 ```javascript
 function mousePressed() {
     
+}
+```
+Dauerhaft:
+
+```javascript
+function draw() {
+  if (mouseIsPressed) {
+    // Code der ausgeführt werden soll
+  }
 }
 ```
