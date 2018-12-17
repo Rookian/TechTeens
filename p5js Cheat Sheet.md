@@ -72,7 +72,7 @@ Einmalig:
 function keyPressed() {
   // keyCodes unter: http://keycode.info/
   if (keyCode == 32) {
-      alert("Es wurde die Leertaste gedrückt!");
+      // Code der ausgeführt werden soll, wenn die Leertaste gedrückt wurden ist
   }
 }
 ```
