@@ -65,3 +65,20 @@ function draw() {
   }
 }
 ```
+
+## Tastaturinteraktion
+Einmalig:
+```javascript
+function keyPressed() {
+  // Code der ausgeführt werden soll
+}
+```
+Dauerhaft:
+
+```javascript
+function draw() {
+  if (keyIsPressed) {
+    // Code der ausgeführt werden soll
+  }
+}
+```
