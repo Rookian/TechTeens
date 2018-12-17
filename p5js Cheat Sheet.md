@@ -70,7 +70,10 @@ function draw() {
 Einmalig:
 ```javascript
 function keyPressed() {
-  // Code der ausgeführt werden soll
+  // keyCodes unter: http://keycode.info/
+  if (keyCode == 32) {
+      alert("Es wurde die Leertaste gedrückt!");
+  }
 }
 ```
 Dauerhaft:
