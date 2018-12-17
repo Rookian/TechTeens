@@ -53,7 +53,7 @@ function draw() {
 Einmalig:
 ```javascript
 function mousePressed() {
-    
+  // Code der ausgeführt werden soll
 }
 ```
 Dauerhaft:
