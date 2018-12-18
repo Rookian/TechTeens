@@ -46,6 +46,16 @@ function draw() {
 ```
  
 ## Mausinteraktionen
+Man kann mit `mouseX` und `mouseY` die Mauskoordinaten auslesen.
+
+Bsp.:
+```javascript
+function draw() {
+    fill(100);
+    rect(mouseX, mouseY, 100, 100);
+}
+```
+
 ## Mausgdrückt
 ```javascript
 function mousePressed() {
