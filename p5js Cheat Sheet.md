@@ -44,19 +44,15 @@ function draw() {
   rect(10, 10, 100, 100);
 }
 ```
-
-
  
 ## Mausinteraktionen
 ## Mausgdrückt
-
-Einmalig:
 ```javascript
 function mousePressed() {
   // Code der ausgeführt werden soll
 }
 ```
-Dauerhaft:
+oder:
 
 ```javascript
 function draw() {
@@ -67,7 +63,6 @@ function draw() {
 ```
 
 ## Tastaturinteraktion
-Einmalig:
 ```javascript
 function keyPressed() {
   // keyCodes unter: http://keycode.info/
@@ -76,7 +71,7 @@ function keyPressed() {
   }
 }
 ```
-Dauerhaft:
+oder:
 
 ```javascript
 function draw() {
