@@ -177,7 +177,7 @@ else {
 ```
 
 ## Listen/Arrays
-### Deklaration und Zuweisung
+### Definieren von Arrrays
 ```javascript
 let autos = ["Seat", "VW", "BMW", "Mercedes"];
 let zahlen = [1, 3, 2, 4, 6, 8, 5];
