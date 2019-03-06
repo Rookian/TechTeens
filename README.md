@@ -181,12 +181,23 @@ else {
 ```javascript
 let autos = ["Seat", "VW", "BMW", "Mercedes"];
 let zahlen = [1, 3, 2, 4, 6, 8, 5];
+
+let schüler = []; // leeres Array
+schüler.push("Max"); // Element hinzufügen
+schüler.push("Laura"); // Element hinzufügen
 ```
 
 ### Werte hinzufügen
+```javascript
 let zahlen = [1, 3, 2, 12, 6, 8, 5];
 zahlen.push(19); // Fügt 19 am Ende der Liste hinzu
+```
 
+### Werte entfernen
+let autos = ["Seat", "VW", "BMW", "Mercedes"];
+autos.pop(); // letzten Werten entfernen
+autos.shift(); // erstes Element entfernen
+autos.
 ### Zugriff auf einzelne Werte (0 basierte Index)
 ```javascript
 let zahlen = [1, 3, 2, 12, 6, 8, 5];
