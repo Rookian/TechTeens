@@ -176,6 +176,39 @@ else {
 }
 ```
 
+## Listen/Arrays
+### Deklaration und Zuweisung
+```javascript
+let autos = ["Seat", "VW", "BMW", "Mercedes"];
+let zahlen = [1, 3, 2, 4, 6, 8, 5];
+```
+
+### Zugriff auf einzelne Werte (0 basierte Index)
+```javascript
+let zahlen = [1, 3, 2, 4, 6, 8, 5];
+console.log(zahlen[0]);
+console.log(zahlen[3]);
+```
+
+## Schleifen
+### Zählerschleife
+```javascript
+let zahlen = [1, 3, 2, 4, 6, 8, 5];
+
+for (let i=0; i < 4; i++ ) {
+  console.log("Aktuelle Zahl: " + zahlen[i]);
+  console.log("Schleifenindex: " + i);
+}
+```
+
+### Iterationsschleife
+```javascript
+let buchstaben = ["x", "a", "b,", "h"];
+for (let buchstabe of buchstaben){
+  console.log("Aktueller Buchstabe: " + buchstabe);
+}
+```
+
 ## Informationen in Console schreiben
 ```javascript
 console.log("Hallo Welt");
