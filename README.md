@@ -194,10 +194,12 @@ zahlen.push(19); // Fügt 19 am Ende der Liste hinzu
 ```
 
 ### Werte entfernen
+```javascript
 let autos = ["Seat", "VW", "BMW", "Mercedes"];
 autos.pop(); // letzten Werten entfernen
 autos.shift(); // erstes Element entfernen
-autos.
+```
+
 ### Zugriff auf einzelne Werte (0 basierte Index)
 ```javascript
 let zahlen = [1, 3, 2, 12, 6, 8, 5];
