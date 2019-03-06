@@ -185,9 +185,10 @@ let zahlen = [1, 3, 2, 4, 6, 8, 5];
 
 ### Zugriff auf einzelne Werte (0 basierte Index)
 ```javascript
-let zahlen = [1, 3, 2, 4, 6, 8, 5];
-console.log(zahlen[0]);
-console.log(zahlen[3]);
+let zahlen = [1, 3, 2, 12, 6, 8, 5];
+
+console.log(zahlen[0]); // 1. Zahl -> 1
+console.log(zahlen[3]); // 4. Zahl -> 12
 ```
 
 ## Schleifen
@@ -204,6 +205,7 @@ for (let i=0; i < 4; i++ ) {
 ### Iterationsschleife
 ```javascript
 let buchstaben = ["x", "a", "b,", "h"];
+
 for (let buchstabe of buchstaben){
   console.log("Aktueller Buchstabe: " + buchstabe);
 }
