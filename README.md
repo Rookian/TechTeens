@@ -196,7 +196,7 @@ zahlen.push(19); // Fügt 19 am Ende der Liste hinzu
 ### Werte entfernen
 ```javascript
 let autos = ["Seat", "VW", "BMW", "Mercedes"];
-autos.pop(); // letzten Werten entfernen
+autos.pop(); // letztes Element entfernen
 autos.shift(); // erstes Element entfernen
 ```
 
@@ -221,7 +221,7 @@ for (let i=0; i < 4; i++ ) {
 
 ### Iterationsschleife
 ```javascript
-let buchstaben = ["x", "a", "b,", "h"];
+let buchstaben = ["x", "a", "b", "h"];
 
 for (let buchstabe of buchstaben){
   console.log("Aktueller Buchstabe: " + buchstabe);
