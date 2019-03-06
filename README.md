@@ -183,6 +183,10 @@ let autos = ["Seat", "VW", "BMW", "Mercedes"];
 let zahlen = [1, 3, 2, 4, 6, 8, 5];
 ```
 
+### Werte hinzufügen
+let zahlen = [1, 3, 2, 12, 6, 8, 5];
+zahlen.push(19); // Fügt 19 am Ende der Liste hinzu
+
 ### Zugriff auf einzelne Werte (0 basierte Index)
 ```javascript
 let zahlen = [1, 3, 2, 12, 6, 8, 5];
