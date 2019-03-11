@@ -200,7 +200,7 @@ autos.pop(); // letztes Element entfernen
 autos.shift(); // erstes Element entfernen
 ```
 
-### Zugriff auf einzelne Werte (0 basierte Index)
+### Zugriff auf einzelne Werte (0 basierter Index)
 ```javascript
 let zahlen = [1, 3, 2, 12, 6, 8, 5];
 
@@ -213,7 +213,7 @@ console.log(zahlen[3]); // 4. Zahl -> 12
 ```javascript
 let zahlen = [1, 3, 2, 4, 6, 8, 5];
 
-for (let i=0; i < 4; i++ ) {
+for (let i=0; i < zahlen.length; i++ ) {
   console.log("Aktuelle Zahl: " + zahlen[i]);
   console.log("Schleifenindex: " + i);
 }
