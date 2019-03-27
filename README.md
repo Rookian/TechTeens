@@ -249,6 +249,7 @@ console.log(meinText);
 | F2               | Methode/Variable umbennen                            |
 | Atl + Shift + F  | Datei formatieren                                    |
 | Strg + Leertaste | IntelliSense aufrufen (mit Enter Auswahl übernehmen) |
+| Strg + Shift + O | Alle Methoden und Variablen anzeigen                 |
 
 # HTML Grundgerüst
 ```html
